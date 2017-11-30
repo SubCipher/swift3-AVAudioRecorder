@@ -7,125 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		202961A81FCF20870049FCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961A71FCF20870049FCF3 /* AppDelegate.swift */; };
-		202961AA1FCF20870049FCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961A91FCF20870049FCF3 /* ViewController.swift */; };
-		202961AD1FCF20870049FCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202961AB1FCF20870049FCF3 /* Main.storyboard */; };
-		202961AF1FCF20870049FCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202961AE1FCF20870049FCF3 /* Assets.xcassets */; };
-		202961B21FCF20870049FCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202961B01FCF20870049FCF3 /* LaunchScreen.storyboard */; };
-		202961BA1FCF22350049FCF3 /* AudioRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961B91FCF22350049FCF3 /* AudioRecordManager.swift */; };
-		202961BE1FCF868F0049FCF3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202961BD1FCF868F0049FCF3 /* AudioToolbox.framework */; };
-		202961C01FCFC44A0049FCF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 202961BF1FCFC44A0049FCF3 /* README.md */; };
+		20FA836E1FD0597E00CF2BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA836D1FD0597E00CF2BBF /* AppDelegate.swift */; };
+		20FA83701FD0597E00CF2BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA836F1FD0597E00CF2BBF /* ViewController.swift */; };
+		20FA83731FD0597E00CF2BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FA83711FD0597E00CF2BBF /* Main.storyboard */; };
+		20FA83751FD0597E00CF2BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FA83741FD0597E00CF2BBF /* Assets.xcassets */; };
+		20FA83781FD0597E00CF2BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FA83761FD0597E00CF2BBF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		202961A41FCF20870049FCF3 /* Swift3AvAudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift3AvAudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		202961A71FCF20870049FCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		202961A91FCF20870049FCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		202961AC1FCF20870049FCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		202961AE1FCF20870049FCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		202961B11FCF20870049FCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		202961B31FCF20870049FCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		202961B91FCF22350049FCF3 /* AudioRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordManager.swift; sourceTree = "<group>"; };
-		202961BB1FCF868F0049FCF3 /* Swift3AvAudioRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift3AvAudioRecorder.entitlements; sourceTree = "<group>"; };
-		202961BD1FCF868F0049FCF3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		202961BF1FCFC44A0049FCF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		20FA836A1FD0597E00CF2BBF /* SwiftAVAudioRecPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAVAudioRecPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FA836D1FD0597E00CF2BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20FA836F1FD0597E00CF2BBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20FA83721FD0597E00CF2BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FA83741FD0597E00CF2BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FA83771FD0597E00CF2BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FA83791FD0597E00CF2BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		202961A11FCF20870049FCF3 /* Frameworks */ = {
+		20FA83671FD0597E00CF2BBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202961BE1FCF868F0049FCF3 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2029619B1FCF20870049FCF3 = {
+		20FA83611FD0597E00CF2BBF = {
 			isa = PBXGroup;
 			children = (
-				202961A61FCF20870049FCF3 /* Swift3AvAudioRecorder */,
-				202961A51FCF20870049FCF3 /* Products */,
-				202961BC1FCF868F0049FCF3 /* Frameworks */,
+				20FA836C1FD0597E00CF2BBF /* SwiftAVAudioRecPlayer */,
+				20FA836B1FD0597E00CF2BBF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		202961A51FCF20870049FCF3 /* Products */ = {
+		20FA836B1FD0597E00CF2BBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				202961A41FCF20870049FCF3 /* Swift3AvAudioRecorder.app */,
+				20FA836A1FD0597E00CF2BBF /* SwiftAVAudioRecPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		202961A61FCF20870049FCF3 /* Swift3AvAudioRecorder */ = {
+		20FA836C1FD0597E00CF2BBF /* SwiftAVAudioRecPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				202961BB1FCF868F0049FCF3 /* Swift3AvAudioRecorder.entitlements */,
-				202961A71FCF20870049FCF3 /* AppDelegate.swift */,
-				202961A91FCF20870049FCF3 /* ViewController.swift */,
-				202961BF1FCFC44A0049FCF3 /* README.md */,
-				202961AB1FCF20870049FCF3 /* Main.storyboard */,
-				202961B91FCF22350049FCF3 /* AudioRecordManager.swift */,
-				202961AE1FCF20870049FCF3 /* Assets.xcassets */,
-				202961B01FCF20870049FCF3 /* LaunchScreen.storyboard */,
-				202961B31FCF20870049FCF3 /* Info.plist */,
+				20FA836D1FD0597E00CF2BBF /* AppDelegate.swift */,
+				20FA836F1FD0597E00CF2BBF /* ViewController.swift */,
+				20FA83711FD0597E00CF2BBF /* Main.storyboard */,
+				20FA83741FD0597E00CF2BBF /* Assets.xcassets */,
+				20FA83761FD0597E00CF2BBF /* LaunchScreen.storyboard */,
+				20FA83791FD0597E00CF2BBF /* Info.plist */,
 			);
-			path = Swift3AvAudioRecorder;
-			sourceTree = "<group>";
-		};
-		202961BC1FCF868F0049FCF3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				202961BD1FCF868F0049FCF3 /* AudioToolbox.framework */,
-			);
-			name = Frameworks;
+			path = SwiftAVAudioRecPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		202961A31FCF20870049FCF3 /* Swift3AvAudioRecorder */ = {
+		20FA83691FD0597E00CF2BBF /* SwiftAVAudioRecPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 202961B61FCF20870049FCF3 /* Build configuration list for PBXNativeTarget "Swift3AvAudioRecorder" */;
+			buildConfigurationList = 20FA837C1FD0597E00CF2BBF /* Build configuration list for PBXNativeTarget "SwiftAVAudioRecPlayer" */;
 			buildPhases = (
-				202961A01FCF20870049FCF3 /* Sources */,
-				202961A11FCF20870049FCF3 /* Frameworks */,
-				202961A21FCF20870049FCF3 /* Resources */,
+				20FA83661FD0597E00CF2BBF /* Sources */,
+				20FA83671FD0597E00CF2BBF /* Frameworks */,
+				20FA83681FD0597E00CF2BBF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Swift3AvAudioRecorder;
-			productName = Swift3AvAudioRecorder;
-			productReference = 202961A41FCF20870049FCF3 /* Swift3AvAudioRecorder.app */;
+			name = SwiftAVAudioRecPlayer;
+			productName = SwiftAVAudioRecPlayer;
+			productReference = 20FA836A1FD0597E00CF2BBF /* SwiftAVAudioRecPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2029619C1FCF20870049FCF3 /* Project object */ = {
+		20FA83621FD0597E00CF2BBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = StepwiseDesigns;
 				TargetAttributes = {
-					202961A31FCF20870049FCF3 = {
+					20FA83691FD0597E00CF2BBF = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.InterAppAudio = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
-			buildConfigurationList = 2029619F1FCF20870049FCF3 /* Build configuration list for PBXProject "Swift3AvAudioRecorder" */;
+			buildConfigurationList = 20FA83651FD0597E00CF2BBF /* Build configuration list for PBXProject "SwiftAVAudioRecPlayer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 2029619B1FCF20870049FCF3;
-			productRefGroup = 202961A51FCF20870049FCF3 /* Products */;
+			mainGroup = 20FA83611FD0597E00CF2BBF;
+			productRefGroup = 20FA836B1FD0597E00CF2BBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				202961A31FCF20870049FCF3 /* Swift3AvAudioRecorder */,
+				20FA83691FD0597E00CF2BBF /* SwiftAVAudioRecPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		202961A21FCF20870049FCF3 /* Resources */ = {
+		20FA83681FD0597E00CF2BBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202961B21FCF20870049FCF3 /* LaunchScreen.storyboard in Resources */,
-				202961AF1FCF20870049FCF3 /* Assets.xcassets in Resources */,
-				202961C01FCFC44A0049FCF3 /* README.md in Resources */,
-				202961AD1FCF20870049FCF3 /* Main.storyboard in Resources */,
+				20FA83781FD0597E00CF2BBF /* LaunchScreen.storyboard in Resources */,
+				20FA83751FD0597E00CF2BBF /* Assets.xcassets in Resources */,
+				20FA83731FD0597E00CF2BBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		202961A01FCF20870049FCF3 /* Sources */ = {
+		20FA83661FD0597E00CF2BBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202961BA1FCF22350049FCF3 /* AudioRecordManager.swift in Sources */,
-				202961AA1FCF20870049FCF3 /* ViewController.swift in Sources */,
-				202961A81FCF20870049FCF3 /* AppDelegate.swift in Sources */,
+				20FA83701FD0597E00CF2BBF /* ViewController.swift in Sources */,
+				20FA836E1FD0597E00CF2BBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		202961AB1FCF20870049FCF3 /* Main.storyboard */ = {
+		20FA83711FD0597E00CF2BBF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				202961AC1FCF20870049FCF3 /* Base */,
+				20FA83721FD0597E00CF2BBF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		202961B01FCF20870049FCF3 /* LaunchScreen.storyboard */ = {
+		20FA83761FD0597E00CF2BBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				202961B11FCF20870049FCF3 /* Base */,
+				20FA83771FD0597E00CF2BBF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		202961B41FCF20870049FCF3 /* Debug */ = {
+		20FA837A1FD0597E00CF2BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		202961B51FCF20870049FCF3 /* Release */ = {
+		20FA837B1FD0597E00CF2BBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,32 +270,30 @@
 			};
 			name = Release;
 		};
-		202961B71FCF20870049FCF3 /* Debug */ = {
+		20FA837D1FD0597E00CF2BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Swift3AvAudioRecorder/Swift3AvAudioRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKH47V89TW;
-				INFOPLIST_FILE = Swift3AvAudioRecorder/Info.plist;
+				INFOPLIST_FILE = SwiftAVAudioRecPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.Swift3AvAudioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.SwiftAVAudioRecPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		202961B81FCF20870049FCF3 /* Release */ = {
+		20FA837E1FD0597E00CF2BBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Swift3AvAudioRecorder/Swift3AvAudioRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKH47V89TW;
-				INFOPLIST_FILE = Swift3AvAudioRecorder/Info.plist;
+				INFOPLIST_FILE = SwiftAVAudioRecPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.Swift3AvAudioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.SwiftAVAudioRecPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2029619F1FCF20870049FCF3 /* Build configuration list for PBXProject "Swift3AvAudioRecorder" */ = {
+		20FA83651FD0597E00CF2BBF /* Build configuration list for PBXProject "SwiftAVAudioRecPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				202961B41FCF20870049FCF3 /* Debug */,
-				202961B51FCF20870049FCF3 /* Release */,
+				20FA837A1FD0597E00CF2BBF /* Debug */,
+				20FA837B1FD0597E00CF2BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		202961B61FCF20870049FCF3 /* Build configuration list for PBXNativeTarget "Swift3AvAudioRecorder" */ = {
+		20FA837C1FD0597E00CF2BBF /* Build configuration list for PBXNativeTarget "SwiftAVAudioRecPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				202961B71FCF20870049FCF3 /* Debug */,
-				202961B81FCF20870049FCF3 /* Release */,
+				20FA837D1FD0597E00CF2BBF /* Debug */,
+				20FA837E1FD0597E00CF2BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2029619C1FCF20870049FCF3 /* Project object */;
+	rootObject = 20FA83621FD0597E00CF2BBF /* Project object */;
 }

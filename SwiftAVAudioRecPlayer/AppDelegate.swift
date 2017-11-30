@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Swift3AvAudioRecorder
+//  SwiftAVAudioRecPlayer
 //
-//  Created by knax on 11/29/17.
+//  Created by knax on 11/30/17.
 //  Copyright © 2017 StepwiseDesigns. All rights reserved.
 //
 

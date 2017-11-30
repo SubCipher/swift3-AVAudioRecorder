@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Swift3AvAudioRecorder.xcodeproj">
+      location = "self:SwiftAVAudioRecPlayer.xcodeproj">
    </FileRef>
 </Workspace>
